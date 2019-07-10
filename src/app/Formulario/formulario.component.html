@@ -1,0 +1,67 @@
+<div class="container">
+    <div class="mx-auto col-sm-12 main-section" id="myTab" role="tablist">
+        <ul class="nav nav-tabs justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" id="list-tab" routerLink="/BodyComponent">List</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="form-tab" routerLink="/VistaNuevaComponent">Form</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="list" role="tabpanel" aria-labelledby="list-tab">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>User Information</h4>
+                    </div>
+                    <div class="card-body">
+                        <form class="form" role="form" autocomplete="off">
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Primer Nombre</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="text">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Segundo Nombre</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="text">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Primer Apellido</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="email">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Segundo Apellido</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="text">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Habilidades Duras</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="password">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Habilidades Blandas</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="password">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-lg-12 text-center">
+                                    <input type="reset" class="btn btn-secondary" value="Cancel">
+                                    <input type="button" class="btn btn-primary" value="Save Changes">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
